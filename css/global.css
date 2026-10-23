@@ -1,0 +1,23 @@
+body{
+  font-family:'rubik', arial, sans-serif; 
+  margin:  0px;
+  color:#55504D;
+  background:#FFFFFE ;
+}
+
+h1,h2,h3,p{
+  margin:0px;
+}
+
+ul{
+  list-style:none;
+  padding:0px;
+  margin:0px;
+}
+
+img{
+  /* max-width:100%; */
+  height: auto;
+  display:block;
+}
+
