@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça o cardápio da Cafeteria Aurora: cafés, salgados, doces, bebidas e combos.">
+  <title>Cardápio | Cafeteria Aurora</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <img src="./img/Cafeteria Aurora.svg" alt="">
+    <a class="brand" href="#inicio" aria-label="Cafeteria Aurora, início"></a>
+    <a class="top-link" href="#cardapio">Nosso cardápio <span aria-hidden="true">↗</span></a>
+    <a class="top-link" href="./index.html">home</a>
+  </header>
+
+  <main id="inicio">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow"><span></span> UM MOMENTO SÓ SEU</p>
+      <h1 id="page-title">Feito com carinho,<br><em>servido com afeto.</em></h1>
+      <p class="intro-copy">Sabores que aquecem o coração e deixam o dia mais gostoso.</p>
+    </section>
+
+    <section class="hero" aria-label="Um café servido com carinho">
+      <img src="./img/img-cardapio.jpg" alt="Café e quitutes servidos em uma mesa acolhedora">
+      <div class="hero-caption">
+        <span aria-hidden="true">☕</span>
+        <p>Seu cantinho favorito<br><strong>fica por aqui.</strong></p>
+      </div>
+    </section>
+
+    <section class="menu" id="cardapio" aria-labelledby="menu-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ESCOLHIDOS PRA VOCÊ</p>
+          <h2 id="menu-title">Nosso cardápio</h2>
+        </div>
+        <p class="menu-note">Preparados na hora, com ingredientes<br class="desktop-only"> fresquinhos e muito amor.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filtrar produtos por categoria">
+        <button class="filter is-active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+        <button class="filter" type="button" data-filter="cafes" aria-pressed="false">Cafés</button>
+        <button class="filter" type="button" data-filter="salgados" aria-pressed="false">Salgados</button>
+        <button class="filter" type="button" data-filter="doces" aria-pressed="false">Doces</button>
+        <button class="filter" type="button" data-filter="bebidas" aria-pressed="false">Bebidas</button>
+        <button class="filter" type="button" data-filter="combos" aria-pressed="false">Combos</button>
+      </div>
+
+      <ul class="product-list" aria-label="Produtos do cardápio">
+        <li class="product-card" data-category="cafes">
+          <img src="./img/Cappuccino.jpg" alt="Cappuccino com espuma cremosa" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Cappuccino Aurora</h3><span>R$ 14,00</span></div>
+            <p>Espresso, leite vaporizado e um toque de canela.</p>
+            <span class="tag">queridinho</span>
+          </div>
+        </li>
+
+        <li class="product-card" data-category="salgados">
+          <img src="./img/Croissant.jpg" alt="Croissant dourado e folhado" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Croissant da casa</h3><span>R$ 12,00</span></div>
+            <p>Folhado na manteiga, douradinho e irresistível.</p>
+            <span class="tag">feito hoje</span>
+          </div>
+        </li>
+
+        <li class="product-card" data-category="doces">
+          <img src="./img/Bolo_de_Chocolate.jpg" alt="Fatia de bolo de chocolate com cobertura de chocolate" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Bolo de chocolate</h3><span>R$ 11,00</span></div>
+            <p>Receita de família com cobertura de chocolate.</p>
+            <span class="tag">feito hoje</span>
+          </div>
+        </li>
+
+        <li class="product-card" data-category="bebidas">
+          <img src="./img/Limonada_Rosa.jpg" alt="PinkLemonade" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>PinkLemonade</h3><span>R$ 10,00</span></div>
+            <p>Leve, refrescante e feito com frutas frescas.</p>
+            <span class="tag">geladinho</span>
+          </div>
+        </li>
+
+        <li class="product-card" data-category="cafes">
+          <img src="./img/Cafe_Latte.jpg" alt="Café latte em xícara de cerâmica" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Latte cremoso</h3><span>R$ 13,00</span></div>
+            <p>Espresso suave com leite bem cremoso.</p>
+            <span class="tag">queridinho</span>
+          </div>
+        </li>
+
+        <li class="product-card" data-category="combos">
+          <img src="./img/Combo_Cafe.jpg" alt="Café acompanhado de bolo caseiro" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Pausa Aurora</h3><span>R$ 45,00</span></div>
+            <p>Um café coado, uma fatia do bolo do dia e um croassant.</p>
+            <span class="tag">combo</span>
+          </div>
+        </li>
+
+        <li class="product-card" data-category="cafes">
+          <img src="./img/Cafe_Gelado.jpg" alt="Café gelado" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Café gelado Aurora</h3><span>R$ 14,90</span></div>
+            <p>Café coado na hora, um toque de canela e um geladinho que todo mundo ama.</p>
+            <span class="tag">queridinho</span>
+          </div>
+        </li>
+
+        <li class="product-card" data-category="salgados">
+          <img src="./img/Pao_de_Queijo.jpg" alt="Pão de queijo" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Pão de queijo da casa</h3><span>R$ 16,00</span></div>
+            <p>Douradinho e irresistível.</p>
+            <span class="tag">feito hoje</span>
+          </div>
+        </li>
+
+        <li class="product-card" data-category="doces">
+          <img src="./img/Brownie.jpg" alt="Brownie" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Brownie</h3><span>R$ 11,00</span></div>
+            <p>Receita de família com uma bola de sorvete.</p>
+            <span class="tag">feito hoje</span>
+          </div>
+        </li>
+
+         <li class="product-card" data-category="cafes">
+          <img src="./img/Cafe_Espresso.jpg" alt="Café expresso" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Café expresso</h3><span>R$ 15,90</span></div>
+            <p>Café coado na hora.</p>
+            <span class="tag">queridinho</span>
+          </div>
+        </li>
+
+         <li class="product-card" data-category="bedidas">
+          <img src="./img/Cha.jpg" alt="Chá" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Chá gelado</h3><span>R$ 12,90</span></div>
+            <p>Chá caseiro.</p>
+            <span class="tag">queridinho</span>
+          </div>
+        </li>
+
+         <li class="product-card" data-category="bebidas">
+          <img src="./img/Chocolate_Quente.jpg" alt="Café gelado" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Chocolate quente Aurora</h3><span>R$ 19,90</span></div>
+            <p>Um chocolate aconchegante e super cremoso.</p>
+            <span class="tag">Feito na hora</span>
+          </div>
+        </li>
+
+         <li class="product-card" data-category="salgados">
+          <img src="./img/Quiche.jpg" alt="Café gelado" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Quiche de queijo</h3><span>R$ 8,00</span></div>
+            <p>Uma quiche que derrete na boca.</p>
+            <span class="tag">queridinho</span>
+          </div>
+        </li>
+
+         <li class="product-card" data-category="doces">
+          <img src="./img/Cheesecake.jpg" alt="Cheesecake" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Cheesecake Aurora</h3><span>R$ 13,00</span></div>
+            <p>Cheesecake delicioso e irresistível.</p>
+            <span class="tag">queridinho</span>
+          </div>
+        </li>
+
+         <li class="product-card" data-category="doces">
+          <img src="./img/Cookie.jpg" alt="Cookie" loading="lazy">
+          <div class="product-info">
+            <div class="product-title"><h3>Cookie</h3><span>R$ 12,00</span></div>
+            <p>Seu cookie fresquinho direto do forno.</p>
+            <span class="tag">queridinho</span>
+          </div>
+        </li>
+      </ul>
+
+      <p class="menu-footer">Feito com <span aria-label="amor">♥</span> na Cafeteria Aurora</p>
+    </section>
+  </main>
+
+  <script>
+    const filtros = document.querySelectorAll('.filter');
+    const produtos = document.querySelectorAll('.product-card');
+
+    filtros.forEach((botao) => {
+      botao.addEventListener('click', () => {
+        const categoria = botao.dataset.filter;
+
+        filtros.forEach((filtro) => {
+          const selecionado = filtro === botao;
+          filtro.classList.toggle('is-active', selecionado);
+          filtro.setAttribute('aria-pressed', selecionado);
+        });
+
+        produtos.forEach((produto) => {
+          produto.hidden =
+            categoria !== 'todos' && produto.dataset.category !== categoria;
+        });
+      });
+    });
+  </script>
+</body>
+</html>
