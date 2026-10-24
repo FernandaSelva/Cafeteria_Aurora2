@@ -1,48 +1,39 @@
 # Cafeteria Aurora ☕
 
-Este repositório reúne o **segundo design e a segunda versão do código** do projeto Cafeteria Aurora. O site apresenta a cafeteria e seu cardápio em páginas com visual acolhedor, tons suaves e detalhes em rosa.
+Este repositório apresenta o **segundo design e a segunda versão do código** do projeto Cafeteria Aurora. O site reúne uma página inicial para apresentar a cafeteria e uma página de cardápio com produtos organizados por categorias.
 
-## Páginas do projeto
+## Página inicial
 
-### Página inicial
+A home apresenta a cafeteria, sua proposta, as lojas e as informações de contato.
 
-A home apresenta:
+![Página inicial da Cafeteria Aurora](<homepage (1).png>)
 
-- Navegação para as seções “Quem somos”, “Cardápio”, “Lojas” e “Contato”.
-- Uma chamada de destaque para conhecer o cardápio.
-- A história e a proposta da Cafeteria Aurora.
-- Endereços e horários das lojas.
-- Informações de contato.
+![Página inicial da Cafeteria Aurora](<homepage (2).png>)
 
-- ![Página inicial da Cafeteria Aurora](homepage(1).png)
-- - ![Página inicial da Cafeteria Aurora](homepage(2).png)
-- ![Página inicial da Cafeteria Aurora](homepage(3).png)
+![Página inicial da Cafeteria Aurora](<homepage (3).png>)
 
+## Cardápio
 
+A página do cardápio exibe cafés, salgados, doces, bebidas e combos. Os botões de categoria usam JavaScript para filtrar os produtos. Pretendo acrescentar mais funcionalidades com JavaScript nas próximas versões.
 
-### Cardápio
+![Cardápio da Cafeteria Aurora](<cardapio (1).png>)
 
-A página de cardápio apresenta produtos organizados em categorias:
+![Cardápio da Cafeteria Aurora](<cardapio (2).png>)
 
-- Cafés
-- Salgados
-- Doces
-- Bebidas
-- Combos
+![Cardápio da Cafeteria Aurora](<cardapio (3).png>)
 
-- ![Página do Cardápio da Cafeteria Aurora](cardapio(1).png)
-- - ![Página inicial da Cafeteria Aurora](cardapio(2).png)
-- ![Página inicial da Cafeteria Aurora](cardapio(3).png)
-
+![Cardápio da Cafeteria Aurora](<cardapio (4).png>)
 
 
 Os botões permitem filtrar os produtos por categoria. Essa funcionalidade usa JavaScript básico. O projeto ainda está em desenvolvimento, e pretendo implementar mais funcionalidades com JavaScript nas próximas versões.
+
 
 ## Tecnologias
 
 - HTML
 - CSS
 - JavaScript
+
 
 ## Status do projeto
 
