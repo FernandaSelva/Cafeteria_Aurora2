@@ -8,9 +8,9 @@ A home apresenta a cafeteria, sua proposta, as lojas e as informações de conta
 
 ![Página inicial da Cafeteria Aurora](<homepage (3).png>)
 
-![Página inicial da Cafeteria Aurora](<homepage (2).png>)
-
 ![Página inicial da Cafeteria Aurora](<homepage (1).png>)
+
+![Página inicial da Cafeteria Aurora](<homepage (2).png>)
 
 ## Cardápio
 
