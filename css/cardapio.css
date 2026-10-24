@@ -95,13 +95,6 @@ main {
 }
 
 h1,
-h2,
-h3,
-p {
-  margin-top: 0;
-}
-
-h1,
 h2 {
   font-family: 'Playfair Display', Georgia, serif;
   font-weight: 500;
