@@ -6,11 +6,11 @@ Este repositório apresenta o **segundo design e a segunda versão do código** 
 
 A home apresenta a cafeteria, sua proposta, as lojas e as informações de contato.
 
-![Página inicial da Cafeteria Aurora](<homepage (1).png>)
+![Página inicial da Cafeteria Aurora](<homepage (3).png>)
 
 ![Página inicial da Cafeteria Aurora](<homepage (2).png>)
 
-![Página inicial da Cafeteria Aurora](<homepage (3).png>)
+![Página inicial da Cafeteria Aurora](<homepage (1).png>)
 
 ## Cardápio
 
