@@ -14,6 +14,11 @@ A home apresenta:
 - Endereços e horários das lojas.
 - Informações de contato.
 
+- ![Página inicial da Cafeteria Aurora](homepage(1).png)
+- - ![Página inicial da Cafeteria Aurora](homepage(2).png)
+- ![Página inicial da Cafeteria Aurora](homepage(3).png)
+
+
 
 ### Cardápio
 
@@ -24,6 +29,12 @@ A página de cardápio apresenta produtos organizados em categorias:
 - Doces
 - Bebidas
 - Combos
+
+- ![Página do Cardápio da Cafeteria Aurora](cardapio(1).png)
+- - ![Página inicial da Cafeteria Aurora](cardapio(2).png)
+- ![Página inicial da Cafeteria Aurora](cardapio(3).png)
+
+
 
 Os botões permitem filtrar os produtos por categoria. Essa funcionalidade usa JavaScript básico. O projeto ainda está em desenvolvimento, e pretendo implementar mais funcionalidades com JavaScript nas próximas versões.
 
