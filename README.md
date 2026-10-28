@@ -16,13 +16,13 @@ A home apresenta a cafeteria, sua proposta, as lojas e as informações de conta
 
 A página do cardápio exibe cafés, salgados, doces, bebidas e combos. Os botões de categoria usam JavaScript para filtrar os produtos. Pretendo acrescentar mais funcionalidades com JavaScript nas próximas versões.
 
-![Cardápio da Cafeteria Aurora](<cardapio (1).png>)
+![Cardápio da Cafeteria Aurora](<./img/cardapio (1).png>)
 
-![Cardápio da Cafeteria Aurora](<cardapio (2).png>)
+![Cardápio da Cafeteria Aurora](<./img/cardapio (2).png>)
 
-![Cardápio da Cafeteria Aurora](<cardapio (3).png>)
+![Cardápio da Cafeteria Aurora](<./img/cardapio (3).png>)
 
-![Cardápio da Cafeteria Aurora](<cardapio (4).png>)
+![Cardápio da Cafeteria Aurora](<./img/cardapio (4).png>)
 
 
 Os botões permitem filtrar os produtos por categoria. Essa funcionalidade usa JavaScript básico. O projeto ainda está em desenvolvimento, e pretendo implementar mais funcionalidades com JavaScript nas próximas versões.
