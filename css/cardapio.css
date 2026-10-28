@@ -34,6 +34,7 @@ body {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--line);
+  gap:20px;
 }
 
 .brand {
@@ -51,9 +52,10 @@ body {
 }
 
 .top-link {
+  
   color: var(--ink);
   text-decoration: none;
-  font-size: 13px;
+  font-size:1rem;
   font-weight: 600;
 }
 

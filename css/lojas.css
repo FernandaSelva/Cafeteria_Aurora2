@@ -20,26 +20,27 @@
 }
 .lojas ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
 }
 
-.lista-lojas li {
-  width: 100%;
+
+.local {
+  flex: 1 1 280px;
+  max-width: 40ch;
   box-sizing: border-box;
+  padding: 15px;
+  background: #e9c4c4;
+  border-radius: 5px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
 }
 .loja-lista {
-   display: flex;
-  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   gap: 50px;
-  margin: 0;
-  padding: 0;
   list-style: none;
   margin-top: 25px;
-  background: #E8E1D8;
-  padding: 10px 15px;
-  border-radius: 5px;
-  max-width: 40ch;
 }
 
 .local-horario{
